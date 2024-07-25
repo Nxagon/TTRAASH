@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.quiz-container {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.question {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+input {
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px 0;
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.result {
+    font-size: 18px;
+    margin-top: 10px;
+}
